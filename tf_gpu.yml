@@ -1,0 +1,17 @@
+name: tf-gpu
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - tensorflow-estimator
+  - shapely
+  - pandas
+  - opencv
+  - cudatoolkit=10.1
+  - cudnn=7.6.5
+  - matplotlib
+  - scikit-learn
+  - tensorflow-gpu
+  - notebook
+  - pydot
+prefix: D:\anaconda3\envs\tf-gpu
